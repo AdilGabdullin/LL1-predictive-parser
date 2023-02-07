@@ -1,0 +1,8 @@
+project hello_world;
+const a = 1;
+subroutine helper;
+begin
+end;
+begin
+    a := 2;
+end.

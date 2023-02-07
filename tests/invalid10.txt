@@ -1,0 +1,4 @@
+project hello_world;
+begin
+    if a==2 then a:=3 endif;
+end.

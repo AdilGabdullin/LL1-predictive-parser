@@ -1,0 +1,4 @@
+project hello_world;
+begin
+a := 2++2;
+end

@@ -1,0 +1,4 @@
+project hello_world;
+var a, b, scan;
+begin
+end

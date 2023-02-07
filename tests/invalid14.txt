@@ -1,0 +1,5 @@
+project hello_world;
+var a, b: int;
+begin
+    print(k);
+end.

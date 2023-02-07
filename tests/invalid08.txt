@@ -1,0 +1,4 @@
+project hello_world;
+    const a;
+begin
+end.

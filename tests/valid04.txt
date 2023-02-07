@@ -1,0 +1,9 @@
+project declarations;
+    subroutine helper1;
+    begin
+        begin
+            print(1);
+        end;
+    end;
+begin
+end.

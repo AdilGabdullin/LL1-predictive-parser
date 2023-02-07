@@ -1,0 +1,6 @@
+project hello_world;
+    const a = 1;
+    var c, d, e : int;
+begin
+    k := 5;
+end.

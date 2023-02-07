@@ -1,0 +1,18 @@
+project declarations;
+    const a=1;
+
+    var c,d,e:int;
+
+    subroutine helper1;
+        subroutine nested_helper;
+        begin
+        end;
+    begin
+    end;
+
+    subroutine helper2;
+        const a=1;b=4; var c:int;
+    begin
+    end;
+begin
+end.

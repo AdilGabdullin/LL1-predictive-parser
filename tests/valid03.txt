@@ -1,0 +1,20 @@
+project statements;
+var a,b: int;
+begin
+    a:=1;
+    a:=1 + 1;
+    a:=(a);
+    a:=2/4+5-6%b+ 3*(2+2);
+
+    scan(b);
+    print(a);
+    print(2);
+
+    if a=2 then a:=3 endif;
+    if a|=2 then a:=3 else a:= 4 endif;
+
+    while a > 0 do a := a - 1;
+    while 1=>0 do
+    begin
+    end;
+end.

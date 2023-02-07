@@ -1,0 +1,4 @@
+project hello_world;
+var 66;
+begin
+end
