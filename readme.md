@@ -3,7 +3,6 @@
 See assignment.doc
 
 ## Usage:
-
     java Main tests/valid01.txt
 
 ## Commands:
@@ -13,17 +12,17 @@ See assignment.doc
     java Main <FILENAME>
 ### run in verbose mode
     java Main <FILENAME> verbose
-tests: bash run-tests.sh
+### tests
+    bash run-tests.sh
 
 ## Classes:
+### Parser
+Parses code and prints "Successfully parsed" or dies with detailed error. In verbose mode also outputs stack, token and symbol table on each iteration
+### Tokenizer
+Transforms code to a queue of tokens
+### ParsingTable
+derrivation table
 ### Token
 Primitive data transfer class
 ### TokenType
-enum KEYWORD, OPERATOR, NAME, INTEGER_VALUE, DELIMETER, UNKNOWN
-### Tokenizer
-transform code to a queue of tokens
-### ParsingTable
-derrivation table
-### Parser
-Parse code, prints "Successfully parsed" or detailed error.
-In verbose mode also outputs stack, token and symbol table on each iteration
+Enum KEYWORD, OPERATOR, NAME, INTEGER_VALUE, DELIMETER, UNKNOWN
